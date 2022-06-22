@@ -12,10 +12,7 @@
     </div>
     <footer class="card-footer">
       <p class="card-footer-item">
-        <span>
-          View on
-          <a :href="href">PubMed</a>
-        </span>
+        <span> View on <a :href="href">PubMed</a> </span>
       </p>
     </footer>
   </article>
