@@ -1,0 +1,7 @@
+// Vitest Snapshot v1
+
+exports[`mount component 1`] = `
+"<section data-v-1d54fe2e=\\"\\" class=\\"section is-medium\\">
+  <p data-v-1d54fe2e=\\"\\"> PubMed is a free resource supporting the search and retrieval of biomedical and life sciences literature with the aim of improving health – both globally and personally. Enter a search term above to start. </p>
+</section>"
+`;

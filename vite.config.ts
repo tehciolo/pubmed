@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vitest/config'
 import { createVuePlugin } from 'vite-plugin-vue2'
 
 const path = require('path')
@@ -13,5 +13,12 @@ export default defineConfig({
         replacement: path.resolve(path.resolve(__dirname), 'src') + '/$1'
       }
     ]
-  }
+  },
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: [
+      'vitest.setup.ts',
+    ],
+  },
 })
